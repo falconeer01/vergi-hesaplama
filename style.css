@@ -1,0 +1,41 @@
+body{
+    font-size: x-large !important;
+}
+
+.header{
+    background-color: red;
+    text-align: center;
+    color: white;
+}
+
+.rate-picker{
+    border: orange 3px solid;
+    border-radius: 10px;
+}
+
+.tax-rate{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.result{
+    background-color: aquamarine;
+    padding: 10px;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.calculate{
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(133, 74, 133);
+}
+
+.btn-check:checked+.btn{
+    color: white !important;
+}
